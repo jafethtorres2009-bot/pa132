@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Datos del Proveedor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <div class="form-header">
+            Datos del proveedor
+        </div>
+        
+        <form>
+            <div class="input-group">
+                <label>Nombre</label>
+                <input type="text" name="nombre">
+            </div>
+
+            <div class="input-group">
+                <label>Dirección</label>
+                <textarea name="direccion" placeholder="Dirección"></textarea>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label>Teléfono residencial</label>
+                    <input type="text" name="tel_fijo" placeholder="Teléfono residencial">
+                </div>
+                <div class="input-group">
+                    <label>Celular</label>
+                    <input type="text" name="celular" placeholder="Teléfono celular">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Correo electrónico">
+            </div>
+
+            <button type="submit" class="btn-guardar">Guardar</button>
+        </form>
+    </div>
+
+</body>
+</html>
